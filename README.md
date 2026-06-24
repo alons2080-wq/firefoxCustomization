@@ -25,7 +25,7 @@ Type `about:support` in the Firefox address bar and locate your **Profile Folder
 
 * In `about:config`, ensure that `toolkit.legacyUserProfileCustomizations.stylesheets` is set to `true`.
 
-3. **Install Styles and Configuration:**
+3. **Install Styles:**
 Copy the `userChrome.css` and `userContent.css` files into the newly created `chrome` folder.
 
 4. **Restart:**
