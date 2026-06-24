@@ -18,7 +18,7 @@ Una configuración CSS personalizada para transformar Firefox en un entorno de n
    * Crea una carpeta llamada `chrome` (si no existe).
    * En `about:config`, asegúrate de que `toolkit.legacyUserProfileCustomizations.stylesheets` esté establecido en `true`.
 
-3. **Instalar los estilos:**
+3. **Instalar los estilos y Configuracion:**
    Copia los archivos `userChrome.css` y `userContent.css` dentro de la carpeta `chrome` recién creada.
 
 4. **Reiniciar:**
