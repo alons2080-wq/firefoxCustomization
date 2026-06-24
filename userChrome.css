@@ -1,0 +1,159 @@
+/* ===== VARIABLES ===== */
+
+:root {
+    --glass: rgba(25,25,25,.35);
+    --border: rgba(255,255,255,.10);
+}
+
+/* ===== TOP BAR ===== */
+
+#navigator-toolbox {
+    background: var(--glass) !important;
+    backdrop-filter: blur(25px) !important;
+    border-bottom: 1px solid var(--border) !important;
+}
+
+/* ===== TABS ===== */
+
+.tabbrowser-tab {
+    transition: all .2s ease !important;
+}
+
+.tabbrowser-tab:hover {
+    transform: scale(1.05) !important;
+}
+
+.tab-background {
+    border-radius: 12px !important;
+}
+
+.tab-background[selected="true"] {
+    background: rgba(255,255,255,.12) !important;
+    backdrop-filter: blur(15px) !important;
+}
+
+/* ===== ADDRESS BAR ===== */
+
+#urlbar-background {
+    background: rgba(20,20,20,.45) !important;
+    backdrop-filter: blur(25px) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 16px !important;
+}
+
+/* ===== BUTTONS ===== */
+
+toolbarbutton {
+    transition: .2s ease !important;
+}
+
+toolbarbutton:hover {
+    transform: scale(1.1) !important;
+}
+
+/* ===== MENUS ===== */
+
+menupopup,
+panel {
+    background: rgba(30,30,30,.92) !important;
+    backdrop-filter: blur(30px) !important;
+    border-radius: 15px !important;
+}
+
+/* ===== BOOKMARKS BAR ===== */
+
+#PersonalToolbar {
+    background: rgba(20,20,20,.25) !important;
+    backdrop-filter: blur(15px) !important;
+}
+
+/* ========= MACOS GLASS ========= */
+
+:root {
+    --glass-bg: rgba(35,35,40,0.28);
+    --glass-bg-strong: rgba(40,40,45,0.40);
+    --glass-border: rgba(255,255,255,0.12);
+}
+
+/* ========= TOP BAR ========= */
+
+#navigator-toolbox {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* ========= TOOLBAR ========= */
+
+#nav-bar {
+    margin: 8px !important;
+    border-radius: 18px !important;
+    background: var(--glass-bg) !important;
+    backdrop-filter: blur(30px) saturate(180%) !important;
+    border: 1px solid var(--glass-border) !important;
+}
+
+/* ========= FLOATING TABS ========= */
+
+.tabbrowser-tab {
+    padding-inline: 4px !important;
+}
+
+.tab-background {
+    border-radius: 14px !important;
+    margin-top: 4px !important;
+    transition: all .25s ease !important;
+}
+
+.tabbrowser-tab:hover .tab-background {
+    transform: translateY(-2px);
+    background: rgba(255,255,255,.08) !important;
+}
+
+.tab-background[selected="true"] {
+    background: rgba(255,255,255,.16) !important;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
+}
+
+/* ========= URL BAR ========= */
+
+#urlbar-background {
+    border-radius: 16px !important;
+    background: rgba(255,255,255,.08) !important;
+    border: 1px solid rgba(255,255,255,.08) !important;
+    backdrop-filter: blur(30px) !important;
+}
+
+#urlbar[open] #urlbar-background {
+    background: rgba(40,40,45,.85) !important;
+}
+
+/* ========= MENUS ========= */
+
+panel,
+menupopup {
+    border-radius: 20px !important;
+    backdrop-filter: blur(35px) saturate(200%) !important;
+    background: rgba(40,40,45,.90) !important;
+    border: 1px solid rgba(255,255,255,.10) !important;
+}
+
+/* ========= BUTTONS ========= */
+
+toolbarbutton {
+    transition: all .2s ease !important;
+}
+
+toolbarbutton:hover {
+    transform: scale(1.08);
+    opacity: .9;
+}
+
+/* ========= BOOKMARKS BAR ========= */
+
+#PersonalToolbar {
+    margin-inline: 12px !important;
+    border-radius: 14px !important;
+    background: rgba(255,255,255,.04) !important;
+    backdrop-filter: blur(25px) !important;
+}
